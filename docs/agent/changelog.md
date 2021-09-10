@@ -6,9 +6,13 @@
 
 **Merged pull requests:**
 
+- Update claim README.md [\#11492](https://github.com/netdata/netdata/pull/11492) ([car12o](https://github.com/car12o))
+- Fix issues in Alarm API [\#11491](https://github.com/netdata/netdata/pull/11491) ([underhood](https://github.com/underhood))
+- Revert "add Travis ctrl file for checking if changes happened" [\#11486](https://github.com/netdata/netdata/pull/11486) ([Ferroin](https://github.com/Ferroin))
 - Clean netdata naming [\#11484](https://github.com/netdata/netdata/pull/11484) ([andrewm4894](https://github.com/andrewm4894))
 - remove broken link [\#11482](https://github.com/netdata/netdata/pull/11482) ([andrewm4894](https://github.com/andrewm4894))
 - eBPF vsn bump to v0.7.9.1 [\#11471](https://github.com/netdata/netdata/pull/11471) ([UmanShahzad](https://github.com/UmanShahzad))
+- Embed build architecture in static build archive names. [\#11463](https://github.com/netdata/netdata/pull/11463) ([Ferroin](https://github.com/Ferroin))
 - add a note how to find web files directory for custom dashboards [\#11461](https://github.com/netdata/netdata/pull/11461) ([ilyam8](https://github.com/ilyam8))
 - Use correct release codename for Debian 11 repoconfig packages. [\#11459](https://github.com/netdata/netdata/pull/11459) ([Ferroin](https://github.com/Ferroin))
 - Fix edge repository configuration DEB packages. [\#11458](https://github.com/netdata/netdata/pull/11458) ([Ferroin](https://github.com/Ferroin))
@@ -277,8 +281,6 @@
 - Improvements to dash-example.html [\#10870](https://github.com/netdata/netdata/pull/10870) ([tnyeanderson](https://github.com/tnyeanderson))
 - Replace references to Google Analytics with Posthog where relevant [\#10868](https://github.com/netdata/netdata/pull/10868) ([andrewm4894](https://github.com/andrewm4894))
 - ACLK Passwd endpoint update [\#10859](https://github.com/netdata/netdata/pull/10859) ([underhood](https://github.com/underhood))
-- Dashboard version 2.17.0 [\#10856](https://github.com/netdata/netdata/pull/10856) ([allelos](https://github.com/allelos))
-- Ebpf directory cache [\#10855](https://github.com/netdata/netdata/pull/10855) ([thiagoftsm](https://github.com/thiagoftsm))
 
 ## [v1.30.1](https://github.com/netdata/netdata/tree/v1.30.1) (2021-04-12)
 
@@ -303,13 +305,6 @@
 
 - Properly handle different netcat command names in binary package test code. [\#10883](https://github.com/netdata/netdata/pull/10883) ([Ferroin](https://github.com/Ferroin))
 - Add carrier and mtu charts for network interfaces [\#10866](https://github.com/netdata/netdata/pull/10866) ([vlvkobal](https://github.com/vlvkobal))
-- Fix typo in main.h [\#10858](https://github.com/netdata/netdata/pull/10858) ([eltociear](https://github.com/eltociear))
-- health: improve alarms infos [\#10853](https://github.com/netdata/netdata/pull/10853) ([ilyam8](https://github.com/ilyam8))
-- minor - add info about --aclk-ng into netdata-installer [\#10852](https://github.com/netdata/netdata/pull/10852) ([underhood](https://github.com/underhood))
-- mqtt-c coverity fix [\#10851](https://github.com/netdata/netdata/pull/10851) ([underhood](https://github.com/underhood))
-- web/gui: make network state map sytanx consistent in the dashboard info [\#10849](https://github.com/netdata/netdata/pull/10849) ([ilyam8](https://github.com/ilyam8))
-- fix\_repeat: Update repeat\_every and avoid unecessary test [\#10846](https://github.com/netdata/netdata/pull/10846) ([thiagoftsm](https://github.com/thiagoftsm))
-- Fix agent crash when executing data query with context and non-existing chart\_label\_key [\#10844](https://github.com/netdata/netdata/pull/10844) ([stelfrag](https://github.com/stelfrag))
 
 ## [v1.29.3](https://github.com/netdata/netdata/tree/v1.29.3) (2021-02-23)
 
